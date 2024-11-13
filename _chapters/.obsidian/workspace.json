@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "050-spark/010-spark-basics.md",
+                "file": "060-machine-learning/030-lightgbm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010-spark-basics"
+              "title": "030-lightgbm"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "050-spark/010-spark-basics.md"
+                "file": "060-machine-learning/030-lightgbm.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 010-spark-basics"
+              "title": "Outline of 030-lightgbm"
             }
           }
         ],
@@ -162,16 +162,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3af91da7f5e84fc",
+  "active": "e6e242c982be4b3f",
   "lastOpenFiles": [
-    "060-machine-learning/030-lightgbm.md",
+    "060-machine-learning/010-ml-interview-resources.md",
     "050-spark/010-spark-basics.md",
+    "060-machine-learning/030-lightgbm.md",
     "images/EFB2.png",
     "images/EFB1.png",
     "images/GOSS.png",
     "{{.md",
     "060-machine-learning/020-initialization.md",
-    "060-machine-learning/010-ml-interview-resources.md",
     "020-python/000-index.md",
     "030-sql/000-index.md",
     "040-linux/000-index.md",
