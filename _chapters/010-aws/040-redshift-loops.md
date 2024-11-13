@@ -89,35 +89,20 @@ Let's say your teammate inserted a few rows into "open_jobs" table with wrong "p
   
 
 ```sql
-
 CREATE OR REPLACE PROCEDURE data_cleaning()
-
 LANGUAGE plpgsql
-
 AS $$
-
 BEGIN
-
     IF EXISTS (SELECT FROM open_jobs WHERE profession='Data Analyst') THEN
-
     UPDATE open_jobs SET profession='Data Engineer' WHERE profession='Data Analyst';
-
     ELSIF EXISTS (SELECT FROM open_jobs WHERE profession='Data Scientist') THEN
-
     UPDATE open_jobs SET profession='Data Engineer' WHERE profession='Data Scientist';
-
     ELSIF NOT EXISTS  (SELECT FROM open_jobs WHERE profession='Data Engineer') THEN
-
     INSERT INTO open_jobs SELECT * FROM stage_jobs WHERE profession='Data Engineer';
-
     ELSE
-
     RAISE INFO 'The Data Engineer open job rows were correctly inserted into the table'
-
 END;
-
 $$;
-
 ```
 
 
@@ -137,126 +122,73 @@ Lets see simple examples using LOOPS in Redshift SQL.
 #### LOOP - EXIT - WHEN
 
 ```sql
-
 CREATE OR REPLACE PROCEDURE simple_loop()
-
 LANGUAGE plpgsql
-
 AS $$
-
 DECLARE
-
   count INTEGER := 0;
-
 BEGIN
-
   <<print_waiting>>
-
   LOOP
-
   RAISE INFO 'WAITING: %', count;
-
   cnt = cnt + 1;
-
     EXIT print_waiting WHEN (cnt > 10);
-
   END LOOP;
-
 END;
-
 $$;
-
 ```
 
 output:
 
 ```
-
 CALL redshift_simple_loop();
 
-  
-
 INFO:  WAITING: 0
-
 INFO:  WAITING: 1
-
 INFO:  WAITING: 2
-
 INFO:  WAITING: 3
-
 INFO:  WAITING: 4
-
 INFO:  WAITING: 5
-
 INFO:  WAITING: 6
-
 INFO:  WAITING: 7
-
 INFO:  WAITING: 8
-
 INFO:  WAITING: 9
-
 INFO:  WAITING: 10
-
 ```
 
 
 #### WHILE LOOP
 
 ```sql
-
 WHILE revenue > 0 AND cost > 0 LOOP
-
   -- some computations here
-
 END LOOP;
-
 ```
 
-  
 #### FOR LOOP
 
 ```sql
-
 CREATE OR REPLACE PROCEDURE records_info_message()
-
 LANGUAGE plpgsql
-
 AS $$
-
 DECLARE
-
   r record;
-
 BEGIN
-
     for f in select title, year
-
             from film_details
-
             where director='RAJAMOULI'
-
   LOOP
-
   RAISE INFO '%(year: %)', f.title, f.director;;
-
   END LOOP;
-
 END;
-
 $$;
-
 ```
 
 output:
 ```
-
 INFO:  RRR(year: 2022)
-
 INFO:  Bahubali 2(year: 2017)
-
 INFO:  Bahubali(year: 2015)
-
 ```
 
   
@@ -266,49 +198,30 @@ I explained about using SQL UDFs with Redshift in my [previous blog](https://jit
   
 
 ```sql
-
 CREATE FUNCTION f_fibonacci(int)
-
 returns float stable AS $$
-
 DECLARE n INTEGER:= $1;
-
 fib       integer := 0;
-
 counter   integer := 0 ;
-
 i         integer := 0 ;
-
 j         integer := 1 ;
 
 BEGIN
-
   IF (n < 1) THEN
-
     fib := 0 ;
-
   END IF;
-
   LOOP
-
     EXIT WHEN counter = n ;
-
     counter := counter + 1 ;
-
     SELECT j,i + j INTO   i,j ;
-
   END LOOP;
 
   fib := i;
-
   raise notice '%', fib;
-
 END;
 
 $$ language sql;
-
 ```
-
   
 **Further Information:**
 
