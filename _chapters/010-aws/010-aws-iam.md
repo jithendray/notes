@@ -61,26 +61,30 @@ title: IAM notes
     
 - IAM Policy structure
     
-    ```json
+```json
+{
+  "Version": "2012-10-17",
+  "Id": "S3-Account-Permissions",
+  "Statement": [
     {
-    	"Version": "2012-10-17",
-    	"Id": "S3-Account-Permissions",
-    	"Statement": [
-    		{
-    			"Sid": "1",
-    			"Effect": "Allow",
-    			"Principal": {
-    					"AWS": ["arn:aws:iam:123456789045:root"]
-    			},
-    			"Action": [
-    					"s3:GetObject",
-    					"s3:PutObject"
-    			],
-    			"Resource": ["arn:aws:s3:::testbucket/*"]
-        }
+      "Sid": "1",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam:123456789045:root"
+        ]
+      },
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::testbucket/*"
       ]
     }
-    ```
+  ]
+}
+```
     
 - **Policy structure**
     
@@ -140,19 +144,15 @@ title: IAM notes
 ### AWS CLI - setup
 
 - To install
+```bash
+curl "<https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip>" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
     
-    ```bash
-	curl "<https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip>" -o "awscliv2.zip"
-    unzip awscliv2.zip
-    sudo ./aws/install
-    ```
-    
-- To configure - `aws configure`
-    
+- To configure - `aws configure`    
 - `aws iam list-users`
-    
 - **AWS CloudShell** - terminal inside cloud
-    
     - any files created inside cloud shell environment - will be saved
     - files can also be downloaded / uploaded
 

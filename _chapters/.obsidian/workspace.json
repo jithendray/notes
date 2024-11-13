@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "060-machine-learning/030-lightgbm.md",
+                "file": "010-aws/010-aws-iam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "030-lightgbm"
+              "title": "010-aws-iam"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "060-machine-learning/030-lightgbm.md"
+                "file": "010-aws/010-aws-iam.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 030-lightgbm"
+              "title": "Outline of 010-aws-iam"
             }
           }
         ],
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,11 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6e242c982be4b3f",
+  "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
+    "010-aws/000-index.md",
+    "060-machine-learning/030-lightgbm.md",
     "060-machine-learning/010-ml-interview-resources.md",
     "050-spark/010-spark-basics.md",
-    "060-machine-learning/030-lightgbm.md",
     "images/EFB2.png",
     "images/EFB1.png",
     "images/GOSS.png",
@@ -175,7 +176,6 @@
     "020-python/000-index.md",
     "030-sql/000-index.md",
     "040-linux/000-index.md",
-    "010-aws/000-index.md",
     "060-machine-learning/000-index.md",
     "050-spark/000-index.md",
     "030-sql/500-sql-practice-questions.md",
