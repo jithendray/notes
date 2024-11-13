@@ -165,6 +165,7 @@
   "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
     "060-machine-learning/030-lightgbm.md",
+    "050-spark/010-spark-basics.md",
     "images/EFB2.png",
     "images/EFB1.png",
     "images/GOSS.png",
@@ -179,7 +180,6 @@
     "050-spark/000-index.md",
     "030-sql/500-sql-practice-questions.md",
     "040-linux/010-root-ubuntu.md",
-    "050-spark/010-spark-basics.md",
     "030-sql/400-sql-interview-topics.md",
     "030-sql/050-sql-update-statements.md",
     "030-sql/040-sql-to-char.md",

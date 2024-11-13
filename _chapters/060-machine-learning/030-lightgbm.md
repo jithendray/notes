@@ -56,7 +56,7 @@ GOSS is a sampling method which down samples the instances on basis of gradients
 
 GOSS in LGBM sets a sampling ratio **a** to select the ones with large gradients and randomly drop the ones with small gradients from the rest **1-a**, by using a ratio **b**. To compensate for the data loss, LGBM amplifies the small gradient samples when calculating the information gain by multiplying it with the constant $(1-a)/b$.
 
-![[GOSS.png]]
+![[/images/GOSS.png]]
 ### EFB - Exclusive Feature Bundling
 
 Remember the con of XGB, the traversal takes $O(no.of.features*len(data))$. If the number of features are reduced, the tree learning will speed up. LGBM uses EFB technique to merge several features together.
@@ -73,13 +73,13 @@ Regarding the first point, this problem can be treated as an equivalent to graph
 2. Sort features in descending order
 3. Check each feature in the sorted list and if conflict < threshold, add it to an existing bundle or else crate a new bundle.
 
-![[EFB1.png]]
+![[/images/EFB1.png]]
 
 Secondly, for bundling the features - Since the range of features in each bundle is different, we need to rebuild the range of bundle feature after merging. In the first for loop, we record the accumulated totalRange of each feature and the previous features. In the second for loop, a new bin value (F[j]bin[i] + binRanges[j]) is recalculated based on the previous binRanges to ensure that the values ​​between features will not conflict. This is optimized for sparse matrices. Since the previous Greedy Bundling algorithm performs conflict checking on features to ensure that there are as few feature conflicts in the bundle as possible, there will not be too many conflicts between non-zero elements between features.
 
 Now the shape becomes [len(data) * no.of_bundles], where no.of_bundles << no.of_features.
 
-![[EFB2.png]]
+![[/images/EFB2.png]]
 ### Tree Growth (Leaf-wise)
 
 LightGBM uses Leaf-wise instead of Level-wise for tree growth. This approach is mainly because LightGBM believes that the Level-wise approach will produce some nodes with low information gain and waste computing resources. In fact, in general, Level-wise is still very effective in preventing over-fitting, so everyone prefers to compare it with Leaf-wise. The author believes that Leaf-wise can pursue better accuracy. But this brings about the problem of overfitting, so the author uses max_depth to control its maximum height. The reason is that LightGBM is doing data merging, Histogram Algorithm and GOSS and other operations, which actually have a natural regularization effect, so using Leaf-wise rather than Level-wise to improve accuracy is a very good choice.
