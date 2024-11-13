@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "56f4203685fd0830",
+        "id": "f77ac577512abc87",
         "type": "tabs",
         "children": [
           {
-            "id": "0fd07ba6bcca43ea",
+            "id": "a3af91da7f5e84fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "020-chapterbook-theme/000-index.md",
+                "file": "050-spark/010-spark-basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000-index"
+              "title": "010-spark-basics"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "020-chapterbook-theme/000-index.md"
+                "file": "050-spark/010-spark-basics.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 000-index"
+              "title": "Outline of 010-spark-basics"
             }
           }
         ],
@@ -162,52 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6e242c982be4b3f",
+  "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
+    "060-machine-learning/030-lightgbm.md",
+    "images/EFB2.png",
+    "images/EFB1.png",
+    "images/GOSS.png",
+    "{{.md",
+    "060-machine-learning/020-initialization.md",
+    "060-machine-learning/010-ml-interview-resources.md",
+    "020-python/000-index.md",
+    "030-sql/000-index.md",
+    "040-linux/000-index.md",
     "010-aws/000-index.md",
+    "060-machine-learning/000-index.md",
+    "050-spark/000-index.md",
+    "030-sql/500-sql-practice-questions.md",
+    "040-linux/010-root-ubuntu.md",
+    "050-spark/010-spark-basics.md",
+    "030-sql/400-sql-interview-topics.md",
+    "030-sql/050-sql-update-statements.md",
+    "030-sql/040-sql-to-char.md",
+    "030-sql/030-sql-integer-division.md",
+    "030-sql/020-sql-date-differences.md",
+    "030-sql/010-important-sql-stuff.md",
+    "020-python/010-important-things-python.md",
+    "010-aws/020-aws-ec2.md",
+    "050-spark",
+    "020-python",
+    "notes",
+    "060-machine-learning",
+    "040-linux",
+    "images/spark-transformationm-list.png",
+    "images/spark-worker-architecture.png",
+    "images/rddvsdfvsds.png",
+    "images/orisam.png",
+    "images/spark-driver-architecture.png",
+    "images/mid.png",
+    "images/minmax.png",
+    "images",
+    "030-sql",
+    "010-aws/010-aws-iam.md",
     "020-chapterbook-theme/000-index.md",
     "010-aws/050-redshuft-udf.md",
-    "010-aws/010-aws-iam.md",
-    "010-aws/020-aws-ec2.md",
     "010-aws/030-aws-ebs-efs.md",
-    "010-aws/040-redshift-loops.md",
-    "aws/redshift-loops.md",
-    "aws/aws-ec2.md",
-    "aws/aws-iam.md",
-    "aws/redshuft-udf.md",
-    "machine-learning/ml-interview-resources.md",
-    "linux/root-ubuntu.md",
-    "linux/upgrading-ubuntu.md",
-    "sql/sql-practice-questions.md",
-    "machine-learning/understanding-gans.md",
-    "machine-learning/understanding-arima.md",
-    "sql/important-sql-stuff.md",
-    "dsa/Sliding Window.md",
-    "General DE guidelines.md",
     "dsa",
-    "sql/sql-date-differences.md",
-    "index.md",
-    "python/important-things-python.md",
-    "sql/sql-integer-division.md",
-    "sql/sql-to-char.md",
-    "sql/sql-interview-topics.md",
-    "python",
+    "020-python",
     "dsa",
-    "sql",
-    "images/orisam.png",
-    "images/minmax.png",
-    "images/mid.png",
-    "images/init.png",
-    "images/gloss.png",
-    "images/genobj.png",
-    "images/fin.png",
-    "images/dloss.png",
-    "images/disobj.png",
-    "images/bce.png",
-    "images copy",
-    "machine-learning",
-    "Untitled.canvas",
-    "aws",
-    "images"
+    "Untitled.canvas"
   ]
 }
