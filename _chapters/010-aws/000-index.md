@@ -1,4 +1,5 @@
 ---
-slug: dummies
 layout: part
+slug: theme
 ---
+

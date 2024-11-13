@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "bbd848fb2b8a918a",
+    "type": "split",
+    "children": [
+      {
+        "id": "56f4203685fd0830",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fd07ba6bcca43ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "020-chapterbook-theme/000-index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "000-index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1db337b4a140cab7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e5fcac243a21803",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6e242c982be4b3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2e2d9d807399963d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a9af112ecfba3252",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236
+  },
+  "right": {
+    "id": "2f529da3c125ea68",
+    "type": "split",
+    "children": [
+      {
+        "id": "4323771cff8b6a60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9c1da1d2f62d819",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sql/important-sql-stuff.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for important-sql-stuff"
+            }
+          },
+          {
+            "id": "7a1a921467542ac7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sql/important-sql-stuff.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from important-sql-stuff"
+            }
+          },
+          {
+            "id": "247a2bf4682e4dd2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "42021f7d06a6597b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "020-chapterbook-theme/000-index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 000-index"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e6e242c982be4b3f",
+  "lastOpenFiles": [
+    "010-aws/000-index.md",
+    "020-chapterbook-theme/000-index.md",
+    "010-aws/050-redshuft-udf.md",
+    "010-aws/010-aws-iam.md",
+    "010-aws/020-aws-ec2.md",
+    "010-aws/030-aws-ebs-efs.md",
+    "010-aws/040-redshift-loops.md",
+    "aws/redshift-loops.md",
+    "aws/aws-ec2.md",
+    "aws/aws-iam.md",
+    "aws/redshuft-udf.md",
+    "machine-learning/ml-interview-resources.md",
+    "linux/root-ubuntu.md",
+    "linux/upgrading-ubuntu.md",
+    "sql/sql-practice-questions.md",
+    "machine-learning/understanding-gans.md",
+    "machine-learning/understanding-arima.md",
+    "sql/important-sql-stuff.md",
+    "dsa/Sliding Window.md",
+    "General DE guidelines.md",
+    "dsa",
+    "sql/sql-date-differences.md",
+    "index.md",
+    "python/important-things-python.md",
+    "sql/sql-integer-division.md",
+    "sql/sql-to-char.md",
+    "sql/sql-interview-topics.md",
+    "python",
+    "dsa",
+    "sql",
+    "images/orisam.png",
+    "images/minmax.png",
+    "images/mid.png",
+    "images/init.png",
+    "images/gloss.png",
+    "images/genobj.png",
+    "images/fin.png",
+    "images/dloss.png",
+    "images/disobj.png",
+    "images/bce.png",
+    "images copy",
+    "machine-learning",
+    "Untitled.canvas",
+    "aws",
+    "images"
+  ]
+}
