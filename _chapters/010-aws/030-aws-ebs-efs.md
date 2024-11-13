@@ -1,5 +1,4 @@
 ---
-layout: post
 title: EBS vs EFS
 ---
 ## EBS
