@@ -106,7 +106,7 @@ layout: default
     {% if in_chapter_toc and in_chapter_toc != "" %}
       <div class="page-toc">
         <div class="page-toc-heading">
-          In this chapter:
+          In this Note:
           {{ in_chapter_toc }}
         </div>
       </div>
@@ -146,7 +146,7 @@ layout: default
                 {{ page_next_part_label }}
                 {% if page_next_chapter_num %} &#8250;{% endif %}
               {% endif %}
-              {% if page_next_chapter_num %}Chapter {{ page_next_chapter_num }}.{% endif %}
+              {% if page_next_chapter_num %}Note {{ page_next_chapter_num }}.{% endif %}
             {% endif %}
           </div>
           <div class="chapter-label">
@@ -181,7 +181,7 @@ layout: default
                 {{ page_prev_part_label }}
                 {% if page_prev_chapter_num %}&#8250;{% endif %}
               {% endif %}
-              {% if page_prev_chapter_num %}Chapter {{ page_prev_chapter_num }}.{% endif %}
+              {% if page_prev_chapter_num %}Note {{ page_prev_chapter_num }}.{% endif %}
             {% endif %}
           </div>
           <div class="chapter-label">
