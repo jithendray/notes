@@ -21,7 +21,7 @@ layout: default
               <a href="{{ book_url }}">
             {% endunless %}
               {% if site.bookcrumbs.book_icon %}<img class="book-icon" src="{{site.baseurl}}/{{ site.bookcrumbs.book_icon }}">{% endif %}
-              Book
+              Home
             {% unless book_url == page.url %}
               </a>
             {% endunless %}
@@ -43,7 +43,7 @@ layout: default
 
       {% if page_chapter_is_part_index and page_part_num%}
         <li class="breadcrumb-part no-arrow">
-          Part {{ page_part_num }}:
+          Topic {{ page_part_num }}:
         </li>
       {% endif %}
 
@@ -56,7 +56,7 @@ layout: default
                 {% if page_part_index_chapter %}
                   <a href="{{ site.baseurl }}{{ page_part_index_chapter.url }}">
                 {% endif %}
-                Part {{ page_part_num }}: {{ page_part_label }}
+                Note {{ page_part_num }}: {{ page_part_label }}
                 {% if page_part_index_chapter %}
                   </a>
                 {% endif %}
@@ -66,7 +66,7 @@ layout: default
 
           {% if page_chapter_num %}
             <li class="no-arrow">
-              Chapter {{ page_chapter_num }}.
+              Note {{ page_chapter_num }}.
             </li>
           {% endif %}
 
@@ -140,7 +140,7 @@ layout: default
           <div class="part">
             Next:
             {% if page_next_chapter_is_part_index %}
-              Part {{ page_next_part_num }}.
+              Topic {{ page_next_part_num }}.
             {% else %}
               {% if page_next_part_label %}
                 {{ page_next_part_label }}
@@ -175,7 +175,7 @@ layout: default
           <div class="part">
             Previous:
             {% if page_prev_chapter_is_part_index %}
-              Part {{ page_prev_part_num }}.
+              Topic {{ page_prev_part_num }}.
             {% else %}
               {% if page_prev_part_label %}
                 {{ page_prev_part_label }}
