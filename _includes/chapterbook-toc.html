@@ -2,6 +2,8 @@
 
   {% include chapter-iterate-init.html %}
 
+  {% assign part_chapter_num = 0 %} <!-- Initialize the chapter counter -->
+
   {% for i in (0..site.chapters.size) %}
 
     {% if i_chapter.id == page.id %}
@@ -17,6 +19,12 @@
     {% assign _is_new_part = false %}
     {% if i_part_folder != i_prev_part_folder %}
       {% assign _is_new_part = true %}
+      {% assign part_chapter_num = 0 %} <!-- Reset the counter for a new part -->
+    {% endif %}
+
+    {% if _is_new_part and _in_nested_part %}
+      </ul></li>
+      {% assign _in_nested_part = false %}
     {% endif %}
 
     {% unless i_chapter_is_visible %}
@@ -37,23 +45,36 @@
             </a>
           {% endif %}
         </div>
-        
-        {% unless include.show_only_parts %} <!-- Skip chapters if only parts should be shown -->
-          <ul>
-            {% for chapter in site.chapters %}
-              {% if chapter.part == i_part_folder %}
-                <li class="chapter">
-                  <a href="{{ site.baseurl }}{{ chapter.url }}">
-                    {{ chapter.title | escape }}
-                  </a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% endunless %}
-      </li>
+        <ul>
+      {% assign _in_nested_part = true %}
     {% endif %}
+    
+    {% unless include.show_only_parts %} <!-- Skip chapters if only parts should be shown -->
+    {% unless i_chapter_is_part_index %}
+      {% assign part_chapter_num = part_chapter_num | plus: 1 %} 
+      <li class="chapter {% if include.show_drafts %}{% if i_chapter_is_draft %}draft{% else %}not-draft{% endif %}{% endif %}">
+        <a href="{{site.baseurl}}{{ i_chapter.url }}">
+          <div class="chapter-label">
+            {% unless i_part_unnumbered %}
+              <span class="chapter-num">{{ part_chapter_num }}.</span> 
+            {% endunless %}
+            {{ i_chapter.title | escape }}
+          </div>
+          {% if i_chapter.abstract %}
+          <div class="abstract">
+            {{ i_chapter.abstract }}
+          </div>
+          {% endif %}
+        </a>
+      </li>
+    {% endunless %}
+    {% endunless %}
 
     {% include chapter-iterate-next.html %}
   {% endfor %}
+
+  {% if _in_nested_part %}
+    </ul></li>
+    {% assign _in_nested_part = false %}
+  {% endif %}
 </ul>
