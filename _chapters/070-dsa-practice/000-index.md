@@ -1,5 +1,5 @@
 ---
 layout: part
-slug: sql
+slug: dsa
 ---
 

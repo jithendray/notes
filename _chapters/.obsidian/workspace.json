@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010-aws/010-aws-iam.md",
+                "file": "070-dsa-practice/03-matrix-basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010-aws-iam"
+              "title": "03-matrix-basics"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 303.5
   },
   "right": {
     "id": "2f529da3c125ea68",
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010-aws/010-aws-iam.md"
+                "file": "070-dsa-practice/03-matrix-basics.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 010-aws-iam"
+              "title": "Outline of 03-matrix-basics"
             }
           }
         ],
@@ -164,30 +164,40 @@
   },
   "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
-    "010-aws/000-index.md",
-    "060-machine-learning/030-lightgbm.md",
-    "060-machine-learning/010-ml-interview-resources.md",
-    "050-spark/010-spark-basics.md",
+    "070-dsa-practice/02-string-basics.md",
+    "070-dsa-practice/01-array-basics.md",
+    "070-dsa-practice/000-index.md",
+    "060-machine-learning/000-index.md",
+    "070-dsa-practice/99-README.md",
+    "070-dsa-practice/24-dynamic-programming-longest-common-subsequence.md",
+    "070-dsa-practice/22-dynamic-programming-string.md",
+    "070-dsa-practice/23-dynamic-programming-kadane.md",
+    "070-dsa-practice/21-dynamic-programming-knapsack.md",
+    "070-dsa-practice/20-dynamic-programming-2D.md",
+    "070-dsa-practice/19-dynamic-programming-1D.md",
+    "070-dsa-practice/18-Stack.md",
+    "070-dsa-practice/17-linked-list.md",
+    "070-dsa-practice/16-prefix-sum.md",
+    "070-dsa-practice/15-binary-search.md",
+    "070-dsa-practice/14-sliding-window-dynamic-size.md",
+    "070-dsa-practice/13-sliding-window-fixed-size.md",
+    "070-dsa-practice/12-hashing-with-prefix-sum.md",
+    "070-dsa-practice/11-hashing.md",
+    "070-dsa-practice/10-two-pointers-strings.md",
+    "070-dsa-practice/09-two-pointers-arrays.md",
+    "070-dsa-practice/08-string-manipulation.md",
+    "070-dsa-practice/07-array-manipulation.md",
+    "070-dsa-practice/06-sorting-algorithms.md",
+    "070-dsa-practice/05-recursion-basics.md",
+    "070-dsa-practice/04-math-basics.md",
+    "070-dsa-practice",
+    "dsa-practice",
+    "070-dsa",
+    "070-DSA",
+    "070-networking",
     "images/EFB2.png",
     "images/EFB1.png",
     "images/GOSS.png",
-    "{{.md",
-    "060-machine-learning/020-initialization.md",
-    "020-python/000-index.md",
-    "030-sql/000-index.md",
-    "040-linux/000-index.md",
-    "060-machine-learning/000-index.md",
-    "050-spark/000-index.md",
-    "030-sql/500-sql-practice-questions.md",
-    "040-linux/010-root-ubuntu.md",
-    "030-sql/400-sql-interview-topics.md",
-    "030-sql/050-sql-update-statements.md",
-    "030-sql/040-sql-to-char.md",
-    "030-sql/030-sql-integer-division.md",
-    "030-sql/020-sql-date-differences.md",
-    "030-sql/010-important-sql-stuff.md",
-    "020-python/010-important-things-python.md",
-    "010-aws/020-aws-ec2.md",
     "050-spark",
     "020-python",
     "notes",
@@ -200,15 +210,6 @@
     "images/spark-driver-architecture.png",
     "images/mid.png",
     "images/minmax.png",
-    "images",
-    "030-sql",
-    "010-aws/010-aws-iam.md",
-    "020-chapterbook-theme/000-index.md",
-    "010-aws/050-redshuft-udf.md",
-    "010-aws/030-aws-ebs-efs.md",
-    "dsa",
-    "020-python",
-    "dsa",
     "Untitled.canvas"
   ]
 }
