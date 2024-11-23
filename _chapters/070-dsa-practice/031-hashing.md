@@ -2,7 +2,8 @@
 title: Hashing
 ---
 
-### [1. Two Sum - array is not sorted](https://leetcode.com/problems/two-sum/)
+### 1. Two Sum - Array is Not Sorted
+[Link to problem](https://leetcode.com/problems/two-sum/)
 
 - create a hashmap { }
 - enumertae through the array
@@ -21,7 +22,9 @@ def twoSum(nums):
 ```
 
 ---
-### [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+### 387. First Unique Character in a String
+[Link to problem](https://leetcode.com/problems/first-unique-character-in-a-string/)
+
 
 Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
@@ -47,7 +50,9 @@ def firstUniqChar(s):
 
 ---
 
-### [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)
+### 2351. First Letter to Appear Twice
+[Link to problem](https://leetcode.com/problems/first-letter-to-appear-twice/)
+
 
 ```python
 def repeatedChar(s):
@@ -60,7 +65,9 @@ def repeatedChar(s):
 ```
 
 ---
-### [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+### 242. Valid Anagram
+[Link to problem](https://leetcode.com/problems/valid-anagram/)
+
 
 - TC: O(n)
 - SC: O(n)
@@ -70,7 +77,9 @@ def validAnagram(s,t):
 ```
 
 ---
-### [169. Majority Element](https://leetcode.com/problems/majority-element/)
+### 169. Majority Element
+[Link to problem](https://leetcode.com/problems/majority-element/)
+
 find the element that appears more than n / 2 times.
 
 - hashMap solution
@@ -116,7 +125,9 @@ def majorityElement(nums):
 ```
 
 ---
-### [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
+### 229. Majority Element II
+[Link to problem](https://leetcode.com/problems/majority-element-ii/)
+
 find the element that appears more than n / 2 times.
 
 - hashmap solution
@@ -178,7 +189,8 @@ def majorityElement2(nums):
 ```
 
 ---
-### [819. Most Common Word](https://leetcode.com/problems/most-common-word/)
+### 819. Most Common Word
+[Link to problem](https://leetcode.com/problems/most-common-word/)
 
 - use regex
 - convert banned list into set - for better searching
@@ -210,10 +222,10 @@ def mostCommonWord(paragraph, banned):
 ```
 
 ---
-### [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-
-
+### 49. Group Anagrams
+[Link to problem](https://leetcode.com/problems/group-anagrams/)
 
 ---
-### [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
+### 41. First Missing Positive
+[Link to problem](https://leetcode.com/problems/first-missing-positive/)

@@ -1,6 +1,5 @@
 ---
 title: Dynamic Programming - Knapsack
 ---
-
-### [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
-
+### Ones and Zeroes
+[Link to problem](https://leetcode.com/problems/ones-and-zeroes/)

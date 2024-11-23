@@ -1,6 +1,5 @@
 ---
 title: Dynamic Programming - Kadane
 ---
-
-### [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-
+### Maximum Subarray
+[Link to problem](https://leetcode.com/problems/maximum-subarray/)

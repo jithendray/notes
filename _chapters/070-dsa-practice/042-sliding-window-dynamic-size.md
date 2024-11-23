@@ -2,7 +2,9 @@
 title: Sliding Window - Dynamic Size
 ---
 
-### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+### 3. Longest Substring Without Repeating Characters
+[Link to problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
 
 ```
 Given a string s, find the length of the longest substring without repeating characters.
@@ -33,15 +35,22 @@ def lengthOfLongestSubstring(s):
 ```
 
 ---
-### [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+### 424. Longest Repeating Character Replacement
+[Link to problem](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
+### 1004. Max Consecutive Ones III
+[Link to problem](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
-### [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+### 209. Minimum Size Subarray Sum
+[Link to problem](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
-### [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+### 76. Minimum Window Substring
+[Link to problem](https://leetcode.com/problems/minimum-window-substring/)
 
-### [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+### 239. Sliding Window Maximum
+[Link to problem](https://leetcode.com/problems/sliding-window-maximum/)
 
-### [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-### [Subarray with Given Sum](https://www.geeksforgeeks.org/find-subarray-with-given-sum/#expected-approach-using-sliding-window-ontime-and-o1-auxiliary-space)
+### Subarray with Given Sum
+[Link to problem](https://www.geeksforgeeks.org/find-subarray-with-given-sum/#expected-approach-using-sliding-window-ontime-and-o1-auxiliary-space)
+
 

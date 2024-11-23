@@ -1,9 +1,8 @@
 ---
 title: Array manipulation
 ---
-
-
-### [Leaders in Array](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
+### Leaders in Array
+[Link to problem](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
 
 leader = an element that is greater than all elements to its right
 - `traverse the array from right to left, keep track of max found so far, any element >= this max is a leader!`
@@ -29,8 +28,8 @@ def get_leaders(arr):
 ```
 
 ---
-### [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
-
+### 189. Rotate Array
+[Link to problem](https://leetcode.com/problems/rotate-array/)
 #### Right Rotate by k
 - k = k%len(arr) because if k > len(arr) - the rotations just repeat
 - rotate the array
@@ -70,7 +69,8 @@ def rightRotate(nums,k):
 ```
 
 ---
-### [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
+### 485. Max Consecutive Ones
+[Link to problem](https://leetcode.com/problems/max-consecutive-ones/)
 
 - initiate currCount = 0 and maxCount = 0
 - iterate through array
@@ -113,7 +113,8 @@ def findMaxConsecutiveOnes(nums):
 ```
 
 ---
-### [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)
+### 1299. Replace Elements with Greatest Element on Right Side
+[Link to problem](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)
 
 replace every element with greatest element to its right, and last element with -1
 
