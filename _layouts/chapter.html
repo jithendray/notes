@@ -28,7 +28,7 @@ layout: default
           </li>
       {% endif %}
 
-      {% if site.bookcrumbs.contents_url %}
+      <!-- {% if site.bookcrumbs.contents_url %}
         {% capture contents_url %}{{site.baseurl}}{{site.bookcrumbs.contents_url}}{% endcapture %}
         <li {% if contents_url == page.url %}class="no-arrow"{% endif %}>
           {% if contents_url != page.url %}
@@ -39,11 +39,11 @@ layout: default
             </a>
           {% endif %}
         </li>
-      {% endif %}
+      {% endif %} -->
 
       {% if page_chapter_is_part_index and page_part_num%}
         <li class="breadcrumb-part no-arrow">
-          Topic {{ page_part_num }}:
+          {{ page_part_num }}: {{ page_part_label }} 
         </li>
       {% endif %}
 
