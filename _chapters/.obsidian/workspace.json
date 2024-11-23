@@ -11,14 +11,10 @@
             "id": "a3af91da7f5e84fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "070-dsa-practice/03-matrix-basics.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03-matrix-basics"
+              "title": "New tab"
             }
           }
         ]
@@ -138,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "070-dsa-practice/03-matrix-basics.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 03-matrix-basics"
+              "title": "Outline"
             }
           }
         ],
@@ -164,32 +158,32 @@
   },
   "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
-    "070-dsa-practice/02-string-basics.md",
-    "070-dsa-practice/01-array-basics.md",
-    "070-dsa-practice/000-index.md",
-    "060-machine-learning/000-index.md",
-    "070-dsa-practice/99-README.md",
-    "070-dsa-practice/24-dynamic-programming-longest-common-subsequence.md",
-    "070-dsa-practice/22-dynamic-programming-string.md",
-    "070-dsa-practice/23-dynamic-programming-kadane.md",
-    "070-dsa-practice/21-dynamic-programming-knapsack.md",
-    "070-dsa-practice/20-dynamic-programming-2D.md",
-    "070-dsa-practice/19-dynamic-programming-1D.md",
-    "070-dsa-practice/18-Stack.md",
-    "070-dsa-practice/17-linked-list.md",
-    "070-dsa-practice/16-prefix-sum.md",
-    "070-dsa-practice/15-binary-search.md",
-    "070-dsa-practice/14-sliding-window-dynamic-size.md",
-    "070-dsa-practice/13-sliding-window-fixed-size.md",
-    "070-dsa-practice/12-hashing-with-prefix-sum.md",
-    "070-dsa-practice/11-hashing.md",
-    "070-dsa-practice/10-two-pointers-strings.md",
-    "070-dsa-practice/09-two-pointers-arrays.md",
-    "070-dsa-practice/08-string-manipulation.md",
-    "070-dsa-practice/07-array-manipulation.md",
-    "070-dsa-practice/06-sorting-algorithms.md",
-    "070-dsa-practice/05-recursion-basics.md",
-    "070-dsa-practice/04-math-basics.md",
+    "070-dsa-practice/021-two-pointers-arrays.md",
+    "070-dsa-practice/022-two-pointers-strings.md",
+    "070-dsa-practice/122-two-pointers-strings.md",
+    "070-dsa-practice/032-hashing-with-prefix-sum.md",
+    "070-dsa-practice/031-hashing.md",
+    "070-dsa-practice/999-README.md",
+    "070-dsa-practice/096-dynamic-programming-longest-common-subsequence.md",
+    "070-dsa-practice/095-dynamic-programming-kadane.md",
+    "070-dsa-practice/094-dynamic-programming-string.md",
+    "070-dsa-practice/095-dynamic-programming-string.md",
+    "070-dsa-practice/093-dynamic-programming-knapsack.md",
+    "070-dsa-practice/091-dynamic-programming-1D.md",
+    "070-dsa-practice/092-dynamic-programming-2D.md",
+    "070-dsa-practice/090-dynamic-programming-1D.md",
+    "070-dsa-practice/080-Stack.md",
+    "070-dsa-practice/070-linked-list.md",
+    "070-dsa-practice/060-prefix-sum.md",
+    "070-dsa-practice/050-binary-search.md",
+    "070-dsa-practice/042-sliding-window-dynamic-size.md",
+    "070-dsa-practice/040-sliding-window-fixed-size.md",
+    "070-dsa-practice/031-hashing-with-prefix-sum.md",
+    "070-dsa-practice/030-hashing.md",
+    "070-dsa-practice/121-two-pointers-strings.md",
+    "070-dsa-practice/020-two-pointers-arrays.md",
+    "070-dsa-practice/016-string-manipulation.md",
+    "070-dsa-practice/015-array-manipulation.md",
     "070-dsa-practice",
     "dsa-practice",
     "070-dsa",
