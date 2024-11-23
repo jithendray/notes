@@ -46,7 +46,7 @@
               {% endif %}
               <li class="part">
                 <a href="javascript:void(0);" class="part-toggle">
-                  {{ i_part_label | upcase }} <span class="expand-toggle">+</span>
+                  {{ i_part_label | upcase }}
                 </a>
                 <ul class="chapter-list" style="display:none;"> <!-- Initially hidden -->
               {% endif %}
@@ -96,25 +96,22 @@
 {% endunless %}
 
 <script>
-// Event delegation for part toggles
+// Ensure the navigation works on both homepage and subpages
 document.addEventListener("DOMContentLoaded", function() {
   const navContainer = document.querySelector('.chapter-summary'); // Parent container
 
-  // Listen for click events on part-toggle links
+  // Event listener for part-toggle links
   navContainer.addEventListener('click', function(event) {
     const clickedElement = event.target;
 
     if (clickedElement.classList.contains('part-toggle')) {
       const chapterList = clickedElement.nextElementSibling; // Get the sibling <ul> element
-      const expandToggle = clickedElement.querySelector('.expand-toggle');
 
       // Toggle the display of the chapter list
       if (chapterList.style.display === 'none' || chapterList.style.display === '') {
         chapterList.style.display = 'block'; // Show the chapters
-        expandToggle.textContent = '-'; // Change + to -
       } else {
         chapterList.style.display = 'none'; // Hide the chapters
-        expandToggle.textContent = '+'; // Change - to +
       }
     }
   });
@@ -136,8 +133,8 @@ document.addEventListener("DOMContentLoaded", function() {
 .part-toggle {
   cursor: pointer;
   font-weight: bold;
-  display: inline-flex; /* Ensure part name and + appear in the same line */
-  align-items: center; /* Align the part title and + sign vertically */
+  display: inline-block; /* Ensure part name stays on the same line */
+  margin-bottom: 10px; /* Add space below part titles */
 }
 
 .expand-toggle {
