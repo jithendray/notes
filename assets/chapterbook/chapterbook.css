@@ -15,6 +15,91 @@
     margin-bottom: 0.5em;
 }
 
+/* General styles for code blocks */
+.markdown-section pre {
+    padding: 10px;
+    overflow: auto;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.markdown-section code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(27, 31, 35, 0.05);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+/* Light theme syntax highlighting */
+.book.color-theme-1 .markdown-section pre {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.book.color-theme-1 .markdown-section code {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #c7254e;
+}
+
+/* Midnight/Dark theme syntax highlighting */
+.book.color-theme-2 .markdown-section pre {
+    background-color: #2d3143;
+    border: 1px solid #666;
+    color: #e0e2ea;
+}
+
+.book.color-theme-2 .markdown-section code {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffcc99;
+}
+
+/* Inline code styles */
+.markdown-section p code {
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 90%;
+    background-color: rgba(27, 31, 35, 0.05);
+    color: #c7254e;
+}
+
+.book.color-theme-1 .markdown-section p code {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #d63384;
+}
+
+.book.color-theme-2 .markdown-section p code {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffcc99;
+}
+
+/* Syntax-specific styles (optional, for supported syntax highlighting libraries) */
+.markdown-section .hljs-keyword,
+.markdown-section .hljs-selector-tag,
+.markdown-section .hljs-literal,
+.markdown-section .hljs-title {
+    color: #d73a49;
+}
+
+.book.color-theme-1 .hljs-keyword,
+.book.color-theme-1 .hljs-selector-tag,
+.book.color-theme-1 .hljs-literal,
+.book.color-theme-1 .hljs-title {
+    color: #d73a49;
+}
+
+.book.color-theme-2 .hljs-keyword,
+.book.color-theme-2 .hljs-selector-tag,
+.book.color-theme-2 .hljs-literal,
+.book.color-theme-2 .hljs-title {
+    color: #79b8ff;
+}
+
+
 .markdown-section table {
     width: auto;
     margin-top: 1em;
