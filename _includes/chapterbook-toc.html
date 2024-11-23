@@ -2,6 +2,8 @@
 
   {% include chapter-iterate-init.html %}
 
+  {% assign part_chapter_num = 0 %} <!-- Initialize the chapter counter -->
+
   {% for i in (0..site.chapters.size) %}
 
     {% if i_chapter.id == page.id %}
@@ -15,8 +17,9 @@
     {% endif %}
 
     {% assign _is_new_part = false %}
-      {% if i_part_folder != i_prev_part_folder %}
+    {% if i_part_folder != i_prev_part_folder %}
       {% assign _is_new_part = true %}
+      {% assign part_chapter_num = 0 %} <!-- Reset the counter for a new part -->
     {% endif %}
 
     {% if _is_new_part and _in_nested_part %}
@@ -47,11 +50,12 @@
     {% endif %}
 
     {% unless i_chapter_is_part_index %}
+      {% assign part_chapter_num = part_chapter_num | plus: 1 %} <!-- Increment the counter -->
       <li class="chapter {% if include.show_drafts %}{% if i_chapter_is_draft %}draft{% else %}not-draft{% endif %}{% endif %}">
         <a href="{{site.baseurl}}{{ i_chapter.url }}">
           <div class="chapter-label">
             {% unless i_part_unnumbered %}
-              <span class="chapter-num">Note {{ i_chapter_num }}.</span>
+              <span class="chapter-num">Note {{ part_chapter_num }}.</span> <!-- Use the part-specific counter -->
             {% endunless %}
             {{ i_chapter.title | escape }}
           </div>
@@ -62,7 +66,7 @@
           {% endif %}
         </a>
       </li>
-   {% endunless %}
+    {% endunless %}
 
     {% include chapter-iterate-next.html %}
   {% endfor %}
