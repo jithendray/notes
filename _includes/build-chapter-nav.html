@@ -46,7 +46,7 @@
               {% endif %}
               <li class="part">
                 <a href="javascript:void(0);" class="part-toggle">
-                  {{ i_part_label | upcase }} <span class="expand-toggle">+</span>
+                  {{ i_part_label | upcase }}
                 </a>
                 <ul class="chapter-list" style="display:none;"> <!-- Initially hidden -->
               {% endif %}
@@ -96,34 +96,36 @@
 {% endunless %}
 
 <script>
+// Ensure the navigation works on both homepage and subpages
 document.addEventListener("DOMContentLoaded", function() {
-  const partToggles = document.querySelectorAll('.part-toggle');
-  
-  partToggles.forEach(function(toggle) {
-    toggle.addEventListener('click', function() {
-      const chapterList = toggle.nextElementSibling; // Get the sibling <ul> element
-      const expandToggle = toggle.querySelector('.expand-toggle');
-      
+  const navContainer = document.querySelector('.chapter-summary'); // Parent container
+
+  // Event listener for part-toggle links
+  navContainer.addEventListener('click', function(event) {
+    const clickedElement = event.target;
+
+    if (clickedElement.classList.contains('part-toggle')) {
+      const chapterList = clickedElement.nextElementSibling; // Get the sibling <ul> element
+
+      // Toggle the display of the chapter list
       if (chapterList.style.display === 'none' || chapterList.style.display === '') {
         chapterList.style.display = 'block'; // Show the chapters
-        expandToggle.textContent = '-'; // Change + to -
       } else {
         chapterList.style.display = 'none'; // Hide the chapters
-        expandToggle.textContent = '+'; // Change - to +
       }
-    });
+    }
   });
 });
 </script>
 
 <style>
-/* Hide chapter lists initially */
+/* Ensure chapter lists are initially hidden */
 .chapter-list {
   display: none;
   margin-left: 20px; /* Indentation for chapter items */
 }
 
-/* Style for the part toggle (expandable part) */
+/* Style for part toggle (expandable part) */
 .part {
   list-style-type: none;
 }
@@ -131,12 +133,8 @@ document.addEventListener("DOMContentLoaded", function() {
 .part-toggle {
   cursor: pointer;
   font-weight: bold;
-  display: inline-block; /* Keep the part name and + sign in the same line */
-}
-
-.expand-toggle {
-  font-size: 16px;
-  margin-left: 10px;
+  display: inline-block; /* Ensure part name stays on the same line */
+  margin-bottom: 10px; /* Add space below part titles */
 }
 
 /* Style for uppercase part titles */
