@@ -1,11 +1,14 @@
+---
+title: All Questions list
+---
 
-- ##### [Array Manipulation](07-array-manipulation.md)
+- ### [Array Manipulation](07-array-manipulation.md)
 	- [x] [Leaders in Array](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
 	- [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 	- [x] [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
 	- [x] [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)
 
-- ##### [String Manipulation](08-string-manipulation.md)
+- ### [String Manipulation](08-string-manipulation.md)
 	- [x] [Remove characters from the first string which are present in the second string](https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string/)
 	- [x] [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)
 	- [x] [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
@@ -16,7 +19,7 @@
 	- [ ] [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 	- [ ] [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
-- ##### [Two Pointers - Arrays](09-two-pointers-arrays.md)
+- ### [Two Pointers - Arrays](09-two-pointers-arrays.md)
 	- [ ] [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 	- [ ] [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 	- [ ] [27. Remove Element](https://leetcode.com/problems/remove-element/)
@@ -34,7 +37,7 @@
 	- [ ] [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 	- [ ] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
-- ##### [Two Pointers - Strings](10-two-pointers-strings.md)
+- ### [Two Pointers - Strings](10-two-pointers-strings.md)
 	- [ ]  [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
 	- [ ]  [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
 	- [ ]  [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
@@ -45,7 +48,7 @@
 	- [ ]  [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 	- [ ]  [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
 
-- ##### [Hashing - HashSets and HashMaps](11-hashing.md)
+- ### [Hashing - HashSets and HashMaps](11-hashing.md)
 	- [x] [1. Two Sum - array is not sorted](https://leetcode.com/problems/two-sum/)
 	- [x] [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
 	- [x] [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)
@@ -56,18 +59,18 @@
 	- [ ] [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 	- [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
-- ##### [Hashing - Prefix Sum](12-hashing-with-prefix-sum.md)
+- ### [Hashing - Prefix Sum](12-hashing-with-prefix-sum.md)
 	- [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 	- [ ] [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 	- [ ] [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 
-- ##### [Sliding Window - Fixed Size](13-sliding-window-fixed-size.md)
+- ### [Sliding Window - Fixed Size](13-sliding-window-fixed-size.md)
 	- [ ] [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 	- [ ] [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
 	- [ ] [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
 	- [ ] [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
-- ##### [Sliding Window - Dynamic Size](14-sliding-window-dynamic-size.md)
+- ### [Sliding Window - Dynamic Size](14-sliding-window-dynamic-size.md)
 	- [ ] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 	- [ ] [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 	- [ ] [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
@@ -76,7 +79,7 @@
 	- [ ] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 	- [ ] [Subarray with Given Sum](https://www.geeksforgeeks.org/find-subarray-with-given-sum/#expected-approach-using-sliding-window-ontime-and-o1-auxiliary-space)
 
-- ##### [Binary Search](15-binary-search.md)
+- ### [Binary Search](15-binary-search.md)
 	- [ ] [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 	- [ ] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 	- [ ] [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)

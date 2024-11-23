@@ -1,4 +1,8 @@
-#### [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+---
+title: Stack
+---
 
-#### [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
+### [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+### [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
 

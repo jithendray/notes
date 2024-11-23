@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "070-dsa-practice/010-array-basics.md",
+                "file": "020-python/000-index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010-array-basics"
+              "title": "000-index"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "070-dsa-practice/010-array-basics.md"
+                "file": "020-python/000-index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 010-array-basics"
+              "title": "Outline of 000-index"
             }
           }
         ],
@@ -162,34 +162,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3af91da7f5e84fc",
+  "active": "e6e242c982be4b3f",
   "lastOpenFiles": [
-    "070-dsa-practice/017-string-manipulation.md",
-    "070-dsa-practice/016-array-manipulation.md",
-    "040-linux/010-root-ubuntu.md",
-    "040-linux/000-index.md",
-    "020-python/010-important-things-python.md",
-    "020-python/000-index.md",
-    "070-dsa-practice/010-array-basics.md",
-    "070-dsa-practice/000-index.md",
-    "050-spark/010-spark-basics.md",
-    "060-machine-learning/030-lightgbm.md",
-    "060-machine-learning/020-initialization.md",
-    "060-machine-learning/010-ml-interview-resources.md",
-    "060-machine-learning/000-index.md",
-    "070-dsa-practice/021-two-pointers-arrays.md",
-    "070-dsa-practice/022-two-pointers-strings.md",
-    "070-dsa-practice/122-two-pointers-strings.md",
-    "070-dsa-practice/032-hashing-with-prefix-sum.md",
-    "070-dsa-practice/031-hashing.md",
     "070-dsa-practice/999-README.md",
     "070-dsa-practice/096-dynamic-programming-longest-common-subsequence.md",
     "070-dsa-practice/095-dynamic-programming-kadane.md",
     "070-dsa-practice/094-dynamic-programming-string.md",
-    "070-dsa-practice/095-dynamic-programming-string.md",
     "070-dsa-practice/093-dynamic-programming-knapsack.md",
-    "070-dsa-practice/091-dynamic-programming-1D.md",
     "070-dsa-practice/092-dynamic-programming-2D.md",
+    "070-dsa-practice/091-dynamic-programming-1D.md",
+    "070-dsa-practice/080-Stack.md",
+    "070-dsa-practice/070-linked-list.md",
+    "070-dsa-practice/050-binary-search.md",
+    "070-dsa-practice/042-sliding-window-dynamic-size.md",
+    "070-dsa-practice/040-sliding-window-fixed-size.md",
+    "070-dsa-practice/036-hashing-with-prefix-sum.md",
+    "070-dsa-practice/035-prefix-sum.md",
+    "070-dsa-practice/031-hashing.md",
+    "070-dsa-practice/022-two-pointers-strings.md",
+    "070-dsa-practice/021-two-pointers-arrays.md",
+    "070-dsa-practice/017-string-manipulation.md",
+    "070-dsa-practice/016-array-manipulation.md",
+    "070-dsa-practice/014-recursion-basics.md",
+    "070-dsa-practice/015-sorting-algorithms.md",
+    "070-dsa-practice/011-string-basics.md",
+    "070-dsa-practice/012-matrix-basics.md",
+    "010-aws/040-redshift-loops.md",
+    "070-dsa-practice/010-array-basics.md",
+    "040-linux/010-root-ubuntu.md",
     "070-dsa-practice",
     "dsa-practice",
     "070-dsa",

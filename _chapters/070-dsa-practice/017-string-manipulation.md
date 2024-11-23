@@ -2,7 +2,7 @@
 title: String Manipulation
 ---
 
-#### [Remove characters from the first string which are present in the second string](https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string/)
+### [Remove characters from the first string which are present in the second string](https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string/)
 
 - TC: O(m * n)
 - SC: O(1)
@@ -26,7 +26,7 @@ def removeElements(s1,s2):
 ```
 
 ---
-#### [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)
+### [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)
 
 Find the **leftmost** occurrence of the substring `part` and **remove** it from `s`.
 
@@ -52,7 +52,7 @@ def removeOccurences(s, part):
 ```
 
 ---
-#### [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+### [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
 
 - iterate from right to left
 - initiate a pointer at end and lenght = 0
@@ -79,7 +79,7 @@ def LengthofLastWord(s):
 ```
 
 ---
-#### [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+### [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 ```python
 def strstr(haysyack, needle):
@@ -91,7 +91,7 @@ def strstr(haysyack, needle):
 ```
 
 ---
-#### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 - assume first string is prefix
 - compare with other strings in array
@@ -112,7 +112,7 @@ def longestCommonPrefix(strs: List[str]) -> str:
 ```
 
 ---
-#### [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
+### [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
 
 ```python
 def titleToNum(columnTitle):
@@ -125,7 +125,7 @@ def titleToNum(columnTitle):
 ```
 
 ---
-#### [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+### [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 - initiate num with last character
 - iterate through every character from left to right until len(s)-1
@@ -148,10 +148,10 @@ def romanToInt(s):
 ```
 
 ---
-####  [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
+###  [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 
 ---
-#### [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+### [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
 
 ---

@@ -1,4 +1,8 @@
-#### [Word Break](https://leetcode.com/problems/word-break/)
+---
+title: Dynamic Programming - Strings
+---
 
-#### [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
+### [Word Break](https://leetcode.com/problems/word-break/)
+
+### [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)
 
