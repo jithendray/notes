@@ -1,3 +1,7 @@
+---
+title: String Manipulation
+---
+
 #### [Remove characters from the first string which are present in the second string](https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string/)
 
 - TC: O(m * n)
