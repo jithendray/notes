@@ -1,7 +1,7 @@
 ---
 title: String Manipulation
 ---
-
+---
 ### Remove characters from the first string which are present in the second string
 [Link to problem](https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string/)
 

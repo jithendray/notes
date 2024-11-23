@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "900-dsa-notes/999-README.md",
+                "file": "900-dsa-notes/016-array-manipulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "999-README"
+              "title": "016-array-manipulation"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900-dsa-notes/999-README.md"
+                "file": "900-dsa-notes/016-array-manipulation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 999-README"
+              "title": "Outline of 016-array-manipulation"
             }
           }
         ],
@@ -164,16 +164,17 @@
   },
   "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
-    "016-array-manipulation.html.md",
+    "900-dsa-notes/014-recursion-basics.md",
+    "900-dsa-notes/015-sorting-algorithms.md",
+    "900-dsa-notes/016-array-manipulation.md",
+    "900-dsa-notes/017-string-manipulation.md",
+    "900-dsa-notes/021-two-pointers-arrays.md",
     "900-dsa-notes/999-README.md",
+    "016-array-manipulation.html.md",
     "08-string-manipulation.md",
     "900-dsa-notes/013-math-basics.md",
     "900-dsa-notes/031-hashing.md",
-    "900-dsa-notes/021-two-pointers-arrays.md",
     "900-dsa-notes/022-two-pointers-strings.md",
-    "900-dsa-notes/016-array-manipulation.md",
-    "900-dsa-notes/017-string-manipulation.md",
-    "900-dsa-notes/015-sorting-algorithms.md",
     "900-dsa-notes/070-linked-list.md",
     "900-dsa-notes/050-binary-search.md",
     "900-dsa-notes/042-sliding-window-dynamic-size.md",
@@ -188,7 +189,6 @@
     "900-dsa-notes/040-sliding-window-fixed-size.md",
     "900-dsa-notes/036-hashing-with-prefix-sum.md",
     "020-python/000-index.md",
-    "900-dsa-notes/014-recursion-basics.md",
     "900-dsa-notes/011-string-basics.md",
     "900-dsa-notes",
     "dsa-practice",

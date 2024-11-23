@@ -1,6 +1,8 @@
 ---
 title: Array manipulation
 ---
+
+---
 ### Leaders in Array
 [Link to problem](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
 
