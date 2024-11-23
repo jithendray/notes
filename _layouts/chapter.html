@@ -43,7 +43,7 @@ layout: default
 
       {% if page_chapter_is_part_index and page_part_num%}
         <li class="breadcrumb-part no-arrow">
-          {{ page_part_num }}: {{ page_part_label }} 
+          {{ page_part_label }} 
         </li>
       {% endif %}
 
@@ -56,7 +56,7 @@ layout: default
                 {% if page_part_index_chapter %}
                   <a href="{{ site.baseurl }}{{ page_part_index_chapter.url }}">
                 {% endif %}
-                {{ page_part_num }}: {{ page_part_label }}
+                {{ page_part_label }}
                 {% if page_part_index_chapter %}
                   </a>
                 {% endif %}
