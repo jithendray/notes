@@ -40,7 +40,7 @@
           {% if i_chapter_is_part_index %}
             <a href="{{site.baseurl}}{{i_chapter.url}}">
           {% endif %}
-          Topic {{ i_part_num }}: {{ i_part_label }}
+          {{ i_part_num }}: {{ i_part_label }}
           {% if i_chapter_is_part_index %}
             </a>
           {% endif %}
@@ -55,7 +55,7 @@
         <a href="{{site.baseurl}}{{ i_chapter.url }}">
           <div class="chapter-label">
             {% unless i_part_unnumbered %}
-              <span class="chapter-num">Note {{ part_chapter_num }}.</span> <!-- Use the part-specific counter -->
+              <span class="chapter-num">{{ part_chapter_num }}.</span> <!-- Use the part-specific counter -->
             {% endunless %}
             {{ i_chapter.title | escape }}
           </div>
