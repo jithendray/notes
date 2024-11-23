@@ -2,7 +2,7 @@
 title: All Questions list
 ---
 
-- ### [Array Manipulation](07-array-manipulation.md)
+- ### [Array Manipulation](016-array-manipulation.md)
 	- [x] [Leaders in Array](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
 	- [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 	- [x] [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
