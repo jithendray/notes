@@ -164,8 +164,9 @@
   },
   "active": "a3af91da7f5e84fc",
   "lastOpenFiles": [
-    "08-string-manipulation.md",
+    "016-array-manipulation.html.md",
     "900-dsa-notes/999-README.md",
+    "08-string-manipulation.md",
     "900-dsa-notes/013-math-basics.md",
     "900-dsa-notes/031-hashing.md",
     "900-dsa-notes/021-two-pointers-arrays.md",
@@ -189,7 +190,6 @@
     "020-python/000-index.md",
     "900-dsa-notes/014-recursion-basics.md",
     "900-dsa-notes/011-string-basics.md",
-    "900-dsa-notes/012-matrix-basics.md",
     "900-dsa-notes",
     "dsa-practice",
     "070-dsa",
