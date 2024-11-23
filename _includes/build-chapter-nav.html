@@ -19,8 +19,7 @@
         {% include chapter-iterate-init.html %}
 
         {% assign part_chapter_num = 0 %} <!-- Initialize chapter counter -->
-        
-        {% assign current_part = "" %}
+        {% assign current_part = "" %} <!-- Track the current part to group chapters -->
         
         {% for i in (0..site.chapters.size) %}
           {% comment %}
@@ -41,14 +40,17 @@
 
           {% if i_part_folder and i_part_folder != i_prev_part_folder and i_part_unnumbered == false %}
             {% if current_part != i_part_label %}
-              <!-- Part header -->
+              <!-- Part header (expandable) -->
+              {% if current_part != "" %}
+                </ul> <!-- Close previous part's chapter list -->
+              {% endif %}
               <li class="part">
                 <a href="javascript:void(0);" class="part-toggle">
                   {{ i_part_label }} <span class="expand-toggle">+</span>
                 </a>
                 <ul class="chapter-list" style="display:none;"> <!-- Initially hidden -->
-            {% endif %}
-            {% assign current_part = i_part_label %}
+              {% endif %}
+              {% assign current_part = i_part_label %}
           {% endif %}
 
           {% if i_chapter_is_part_index %}
@@ -70,7 +72,7 @@
           {% include chapter-iterate-next.html %}
 
           {% if loop.last %}
-            </ul> <!-- Close chapter list -->
+            </ul> <!-- Close the last part's chapter list -->
           {% endif %}
         {% endfor %}
 
@@ -133,10 +135,6 @@ document.addEventListener("DOMContentLoaded", function() {
 .expand-toggle {
   font-size: 16px;
   margin-left: 10px;
-}
-
-.part-toggle.active .expand-toggle {
-  transform: rotate(45deg);
 }
 
 /* Active chapter styling */
