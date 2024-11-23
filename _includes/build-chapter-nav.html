@@ -18,7 +18,7 @@
 
         {% include chapter-iterate-init.html %}
 
-        {% assign part_chapter_num = 0 %} <!-- Initialize chapter counter -->
+        {% assign part_chapter_num = 1 %} <!-- Initialize chapter counter for each part -->
         {% assign current_part = "" %} <!-- Track the current part to group chapters -->
         
         {% for i in (0..site.chapters.size) %}
@@ -46,19 +46,18 @@
               {% endif %}
               <li class="part">
                 <a href="javascript:void(0);" class="part-toggle">
-                  {{ i_part_label }} <span class="expand-toggle">+</span>
+                  {{ i_part_label | upcase }} <span class="expand-toggle">+</span>
                 </a>
                 <ul class="chapter-list" style="display:none;"> <!-- Initially hidden -->
               {% endif %}
               {% assign current_part = i_part_label %}
+              {% assign part_chapter_num = 1 %} <!-- Reset chapter number for each part -->
           {% endif %}
 
           {% if i_chapter_is_part_index %}
             {% include chapter-iterate-next.html %}
             {% continue %}
           {% endif %}
-
-          {% assign part_chapter_num = part_chapter_num | plus: 1 %} <!-- Increment the chapter counter -->
 
           <li class="chapter {% if page.url == i_chapter.url %}active{% endif %}">
             <a href="{{site.baseurl}}{{i_chapter.url}}">
@@ -68,6 +67,8 @@
               {{ i_chapter.title | escape }}
             </a>
           </li>
+
+          {% assign part_chapter_num = part_chapter_num | plus: 1 %} <!-- Increment the chapter counter -->
 
           {% include chapter-iterate-next.html %}
 
@@ -130,11 +131,17 @@ document.addEventListener("DOMContentLoaded", function() {
 .part-toggle {
   cursor: pointer;
   font-weight: bold;
+  display: inline-block; /* Keep the part name and + sign in the same line */
 }
 
 .expand-toggle {
   font-size: 16px;
   margin-left: 10px;
+}
+
+/* Style for uppercase part titles */
+.part-toggle {
+  text-transform: uppercase; /* Make part titles uppercase */
 }
 
 /* Active chapter styling */
