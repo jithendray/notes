@@ -49,13 +49,13 @@
       {% assign _in_nested_part = true %}
     {% endif %}
 
-    {% unless i_chapter_is_part_index %}
-      {% assign part_chapter_num = part_chapter_num | plus: 1 %} <!-- Increment the counter -->
+    <!-- {% unless i_chapter_is_part_index %}
+      {% assign part_chapter_num = part_chapter_num | plus: 1 %} 
       <li class="chapter {% if include.show_drafts %}{% if i_chapter_is_draft %}draft{% else %}not-draft{% endif %}{% endif %}">
         <a href="{{site.baseurl}}{{ i_chapter.url }}">
           <div class="chapter-label">
             {% unless i_part_unnumbered %}
-              <span class="chapter-num">{{ part_chapter_num }}.</span> <!-- Use the part-specific counter -->
+              <span class="chapter-num">{{ part_chapter_num }}.</span> 
             {% endunless %}
             {{ i_chapter.title | escape }}
           </div>
@@ -66,7 +66,7 @@
           {% endif %}
         </a>
       </li>
-    {% endunless %}
+    {% endunless %} -->
 
     {% include chapter-iterate-next.html %}
   {% endfor %}
