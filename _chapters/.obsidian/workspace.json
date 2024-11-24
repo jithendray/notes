@@ -10,18 +10,35 @@
           {
             "id": "a3af91da7f5e84fc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "900-dsa-notes/016-array-manipulation.md",
+                "file": "900-dsa-notes/001-README.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "001-README"
+            }
+          },
+          {
+            "id": "ad709b8ad51146fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "999-misc/000-index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "016-array-manipulation"
+              "title": "000-index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900-dsa-notes/016-array-manipulation.md"
+                "file": "999-misc/000-index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 016-array-manipulation"
+              "title": "Outline of 000-index"
             }
           }
         ],
@@ -162,14 +179,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3af91da7f5e84fc",
+  "active": "e6e242c982be4b3f",
   "lastOpenFiles": [
+    "999-misc/001-dsa",
+    "900-dsa-notes/000-index.md",
+    "999-misc/000-index.md",
+    "900-dsa-notes/040-sliding-window-fixed-size.md",
+    "999-misc",
+    "900-dsa-notes/001-README.md",
+    "999-misc/001-dsa/016-array-manipulation.md",
     "900-dsa-notes/014-recursion-basics.md",
     "900-dsa-notes/015-sorting-algorithms.md",
-    "900-dsa-notes/016-array-manipulation.md",
     "900-dsa-notes/017-string-manipulation.md",
     "900-dsa-notes/021-two-pointers-arrays.md",
-    "900-dsa-notes/999-README.md",
     "016-array-manipulation.html.md",
     "08-string-manipulation.md",
     "900-dsa-notes/013-math-basics.md",
@@ -186,10 +208,6 @@
     "900-dsa-notes/095-dynamic-programming-kadane.md",
     "900-dsa-notes/096-dynamic-programming-longest-common-subsequence.md",
     "900-dsa-notes/080-Stack.md",
-    "900-dsa-notes/040-sliding-window-fixed-size.md",
-    "900-dsa-notes/036-hashing-with-prefix-sum.md",
-    "020-python/000-index.md",
-    "900-dsa-notes/011-string-basics.md",
     "900-dsa-notes",
     "dsa-practice",
     "070-dsa",
@@ -202,7 +220,6 @@
     "020-python",
     "notes",
     "060-machine-learning",
-    "040-linux",
     "images/spark-transformationm-list.png",
     "images/spark-worker-architecture.png",
     "images/rddvsdfvsds.png",
