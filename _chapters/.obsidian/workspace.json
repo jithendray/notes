@@ -73,12 +73,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "901-experience-summaries.md",
+                "file": "900-interview-prep/116-array-manipulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "901-experience-summaries"
+              "title": "116-array-manipulation"
             }
           }
         ],
@@ -200,10 +200,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "901-experience-summaries.md"
+                "file": "900-interview-prep/116-array-manipulation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 901-experience-summaries"
+              "title": "Outline of 116-array-manipulation"
             }
           }
         ],
@@ -225,12 +225,18 @@
   },
   "active": "704758239766b5a7",
   "lastOpenFiles": [
+    "900-interview-prep/117-string-manipulation.md",
+    "900-interview-prep/116-array-manipulation.md",
+    "900-interview-prep/07-array-manipulation.md",
+    "900-interview-prep/116-two-pointers-arrays.md",
+    "900-interview-prep/115-sorting-algorithms.md",
+    "900-interview-prep/901-experience-summaries.md",
+    "900-interview-prep/09-two-pointers-arrays.md",
+    "900-interview-prep/110-array-basics.md",
     "900-interview-prep/127-sliding-window-fixed-size.md",
-    "901-experience-summaries.md",
     "900-interview-prep/100-dsa-questions-list.md",
     "900-interview-prep/124-prefix-sum.md",
     "900-interview-prep/122-two-pointers-strings.md",
-    "900-interview-prep/117-string-manipulation.md",
     "900-interview-prep/121-two-pointers-arrays.md",
     "900-interview-prep/156-dynamic-programming-longest-common-subsequence.md",
     "900-interview-prep/145-Stack.md",
@@ -245,12 +251,6 @@
     "050-spark/000-index.md",
     "900-interview-prep/000-index.md",
     "900-interview-prep/301-sql-practice-chatgpt.md",
-    "030-sql/500-sql-practice-questions.md",
-    "900-interview-prep/sql-practice-questions.md",
-    "900-interview-prep/110-array-basics.md",
-    "900-interview-prep/115-sorting-algorithms.md",
-    "900-dsa-notes/Untitled.md",
-    "900-interview-prep/155-dynamic-programming-kadane.md",
     "999-misc/001-dsa",
     "999-misc",
     "900-interview-prep",
