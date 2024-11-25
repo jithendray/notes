@@ -8,37 +8,81 @@
         "type": "tabs",
         "children": [
           {
+            "id": "59a6aa5e70bd4801",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "900-interview-prep/001-interview-resources.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "001-interview-resources"
+            }
+          },
+          {
             "id": "a3af91da7f5e84fc",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "900-dsa-notes/001-README.md",
+                "file": "900-interview-prep/100-dsa-questions-list.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "001-README"
+              "title": "100-dsa-questions-list"
             }
           },
           {
-            "id": "ad709b8ad51146fb",
+            "id": "b205f903061dbbfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "999-misc/000-index.md",
+                "file": "900-interview-prep/124-prefix-sum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000-index"
+              "title": "124-prefix-sum"
+            }
+          },
+          {
+            "id": "f6e08e6204008e22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "900-interview-prep/127-sliding-window-fixed-size.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "127-sliding-window-fixed-size"
+            }
+          },
+          {
+            "id": "704758239766b5a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "901-experience-summaries.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "901-experience-summaries"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -69,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SQL chatgpt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +188,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -156,10 +200,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "999-misc/000-index.md"
+                "file": "901-experience-summaries.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 000-index"
+              "title": "Outline of 901-experience-summaries"
             }
           }
         ],
@@ -167,7 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 234.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,36 +223,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6e242c982be4b3f",
+  "active": "704758239766b5a7",
   "lastOpenFiles": [
+    "900-interview-prep/127-sliding-window-fixed-size.md",
+    "901-experience-summaries.md",
+    "900-interview-prep/100-dsa-questions-list.md",
+    "900-interview-prep/124-prefix-sum.md",
+    "900-interview-prep/122-two-pointers-strings.md",
+    "900-interview-prep/117-string-manipulation.md",
+    "900-interview-prep/121-two-pointers-arrays.md",
+    "900-interview-prep/156-dynamic-programming-longest-common-subsequence.md",
+    "900-interview-prep/145-Stack.md",
+    "900-interview-prep/140-linked-list.md",
+    "900-interview-prep/130-binary-search.md",
+    "900-interview-prep/123-hashing.md",
+    "900-interview-prep/126-sliding-window-dynamic-size.md",
+    "900-interview-prep/125-hashing-with-prefix-sum.md",
+    "900-interview-prep/101-dsa-concepts-notes.md",
+    "900-interview-prep/001-interview-resources.md",
+    "sliding-window-notes.md",
+    "050-spark/000-index.md",
+    "900-interview-prep/000-index.md",
+    "900-interview-prep/301-sql-practice-chatgpt.md",
+    "030-sql/500-sql-practice-questions.md",
+    "900-interview-prep/sql-practice-questions.md",
+    "900-interview-prep/110-array-basics.md",
+    "900-interview-prep/115-sorting-algorithms.md",
+    "900-dsa-notes/Untitled.md",
+    "900-interview-prep/155-dynamic-programming-kadane.md",
     "999-misc/001-dsa",
-    "900-dsa-notes/000-index.md",
-    "999-misc/000-index.md",
-    "900-dsa-notes/040-sliding-window-fixed-size.md",
     "999-misc",
-    "900-dsa-notes/001-README.md",
-    "999-misc/001-dsa/016-array-manipulation.md",
-    "900-dsa-notes/014-recursion-basics.md",
-    "900-dsa-notes/015-sorting-algorithms.md",
-    "900-dsa-notes/017-string-manipulation.md",
-    "900-dsa-notes/021-two-pointers-arrays.md",
-    "016-array-manipulation.html.md",
-    "08-string-manipulation.md",
-    "900-dsa-notes/013-math-basics.md",
-    "900-dsa-notes/031-hashing.md",
-    "900-dsa-notes/022-two-pointers-strings.md",
-    "900-dsa-notes/070-linked-list.md",
-    "900-dsa-notes/050-binary-search.md",
-    "900-dsa-notes/042-sliding-window-dynamic-size.md",
-    "900-dsa-notes/035-prefix-sum.md",
-    "900-dsa-notes/091-dynamic-programming-1D.md",
-    "900-dsa-notes/092-dynamic-programming-2D.md",
-    "900-dsa-notes/093-dynamic-programming-knapsack.md",
-    "900-dsa-notes/094-dynamic-programming-string.md",
-    "900-dsa-notes/095-dynamic-programming-kadane.md",
-    "900-dsa-notes/096-dynamic-programming-longest-common-subsequence.md",
-    "900-dsa-notes/080-Stack.md",
-    "900-dsa-notes",
+    "900-interview-prep",
     "dsa-practice",
     "070-dsa",
     "070-DSA",
@@ -219,7 +264,6 @@
     "050-spark",
     "020-python",
     "notes",
-    "060-machine-learning",
     "images/spark-transformationm-list.png",
     "images/spark-worker-architecture.png",
     "images/rddvsdfvsds.png",

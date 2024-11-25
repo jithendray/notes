@@ -1,5 +1,5 @@
 ---
-title: All Questions list
+title: DSA Questions list
 ---
 
 - ### Array Manipulation
