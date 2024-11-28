@@ -2,9 +2,9 @@
 title: Interview Prep Resources
 ---
 ### 1. Python
+- [GFG - Python Exercises](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/)
 - [W3 resources - Python Exercises](https://www.w3resource.com/python-exercises/)
 - [PYnative - Python Exercises](https://pynative.com/python-exercises-with-solutions/)
-- [GFG - Python Exercises](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/)
 
 ### 2. SQL
 - [PostgreSQL Exercises](https://pgexercises.com/)

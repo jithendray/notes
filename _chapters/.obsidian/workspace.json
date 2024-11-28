@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "900-interview-prep/001-interview-resources.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -45,44 +45,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "900-interview-prep/124-prefix-sum.md",
+                "file": "900-interview-prep/100-dsa-questions-list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "124-prefix-sum"
-            }
-          },
-          {
-            "id": "f6e08e6204008e22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "900-interview-prep/127-sliding-window-fixed-size.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "127-sliding-window-fixed-size"
-            }
-          },
-          {
-            "id": "704758239766b5a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "900-interview-prep/116-array-manipulation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "116-array-manipulation"
+              "title": "100-dsa-questions-list"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,10 +85,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SQL chatgpt",
+                "query": "\"rotate array\"",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -200,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "900-interview-prep/116-array-manipulation.md"
+                "file": "900-interview-prep/100-dsa-questions-list.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 116-array-manipulation"
+              "title": "Outline of 100-dsa-questions-list"
             }
           }
         ],
@@ -223,34 +195,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "704758239766b5a7",
+  "active": "b205f903061dbbfb",
   "lastOpenFiles": [
-    "900-interview-prep/117-string-manipulation.md",
     "900-interview-prep/116-array-manipulation.md",
+    "900-interview-prep/100-dsa-questions-list.md",
+    "900-interview-prep/117-string-manipulation.md",
+    "900-interview-prep/126-sliding-window-dynamic-size.md",
+    "900-interview-prep/124-prefix-sum.md",
+    "030-sql/500-sql-practice-questions.md",
+    "900-interview-prep/001-interview-resources.md",
+    "900-interview-prep/301-sql-practice-chatgpt.md",
+    "900-interview-prep/121-two-pointers-arrays.md",
+    "900-interview-prep/122-two-pointers-strings.md",
+    "900-interview-prep/130-binary-search.md",
+    "900-interview-prep/127-sliding-window-fixed-size.md",
+    "900-interview-prep/125-hashing-with-prefix-sum.md",
     "900-interview-prep/07-array-manipulation.md",
     "900-interview-prep/116-two-pointers-arrays.md",
     "900-interview-prep/115-sorting-algorithms.md",
     "900-interview-prep/901-experience-summaries.md",
     "900-interview-prep/09-two-pointers-arrays.md",
     "900-interview-prep/110-array-basics.md",
-    "900-interview-prep/127-sliding-window-fixed-size.md",
-    "900-interview-prep/100-dsa-questions-list.md",
-    "900-interview-prep/124-prefix-sum.md",
-    "900-interview-prep/122-two-pointers-strings.md",
-    "900-interview-prep/121-two-pointers-arrays.md",
     "900-interview-prep/156-dynamic-programming-longest-common-subsequence.md",
     "900-interview-prep/145-Stack.md",
     "900-interview-prep/140-linked-list.md",
-    "900-interview-prep/130-binary-search.md",
     "900-interview-prep/123-hashing.md",
-    "900-interview-prep/126-sliding-window-dynamic-size.md",
-    "900-interview-prep/125-hashing-with-prefix-sum.md",
     "900-interview-prep/101-dsa-concepts-notes.md",
-    "900-interview-prep/001-interview-resources.md",
     "sliding-window-notes.md",
     "050-spark/000-index.md",
-    "900-interview-prep/000-index.md",
-    "900-interview-prep/301-sql-practice-chatgpt.md",
     "999-misc/001-dsa",
     "999-misc",
     "900-interview-prep",
