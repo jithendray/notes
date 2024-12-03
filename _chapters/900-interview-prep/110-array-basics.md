@@ -1,6 +1,8 @@
 ---
 title: Array Basics
 ---
+
+
 1. **Print each element and its index in an array.**
 ```python
 for index, value in enumerate(array):
@@ -37,8 +39,7 @@ from functools import reduce
 array_product = reduce(x, y: x*y, array)
 ```
    
-7. **Count occurrences
-8. of a target number in an array.**
+7. **Count occurrences of a target number in an array.**
 ```python
 array.count(target)
 ```
@@ -58,7 +59,7 @@ else:
 unique = len(set(array))
 duplicates = len(array) - unique
 
-## OR
+
 
 from collections import Counter
 counter = Counter(array)
@@ -113,7 +114,7 @@ unique_array.sort()
 print(unique_array[-2])
 
 
-### 2-pass O(n)
+
 largest = float('-inf')
 secondLargest = float('-inf')
 for i in range(len(array)):
@@ -125,7 +126,7 @@ for i in range(len(array)):
 		secondLargest = array[i]
 
 
-### 1-pass O(n)
+
 largest = float('-inf')
 secondLarget = float('-inf')
 for i in range(len(array)):
@@ -142,7 +143,7 @@ unique_array = list(set(array))
 unique_array.sort()
 print(unique_array[2])
 
-### 2-pass O(n)
+
 smallest = float('inf')
 secondSmallest = float('inf')
 for i in range(len(array)):
@@ -152,7 +153,7 @@ for i in range(len(array)):
 	if array[i] < secondSmallest and array[i] != smallest:
 		secondSmallest = array[i]
 
-### 1-pass O(n)
+
 smallest = float('inf')
 secondSmallest = float('inf')
 for i in range(len(array)):
