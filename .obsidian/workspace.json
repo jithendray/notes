@@ -11,14 +11,10 @@
             "id": "1b2f10288e70ec48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_chapters/900-interview-prep/110-array-basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "110-array-basics"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -93,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_chapters/900-interview-prep/126-sliding-window-dynamic-size.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 126-sliding-window-dynamic-size"
             }
           },
           {
@@ -141,12 +138,12 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,9 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b2f10288e70ec48",
+  "active": "e19b739367e404d0",
   "lastOpenFiles": [
-    "_chapters/900-interview-prep/116-array-manipulation.md",
-    "_chapters/010-aws/010-aws-iam.md"
+    "900-interview-prep/110-array-basics.md",
+    "_chapters/060-machine-learning/000-index.md",
+    "_chapters/010-aws/010-aws-iam.md",
+    "_chapters/020-python/010-important-things-python.md",
+    "_chapters/020-python/000-index.md",
+    "900-interview-prep/121-two-pointers-arrays.md",
+    "900-interview-prep/126-sliding-window-dynamic-size.md",
+    "900-interview-prep/127-sliding-window-fixed-size.md",
+    "900-interview-prep/116-array-manipulation.md"
   ]
 }

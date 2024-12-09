@@ -85,7 +85,7 @@ Given a string s, find the length of the longest substring without repeating cha
 ```python
 def lengthOfLongestSubstring(s):
 	start = 0
-	seen = {}
+	seen = set()
 	max_length = 0
 
 	for end in range(len(s)):
