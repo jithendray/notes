@@ -1,3 +1,3 @@
 #!/bin/sh
 
-xargs -n1 -I {} grep -H -m1 "date:" {} | sed s/\.md:date://g | sed s/\.markdown:date://g | awk '{print "- *"$2"* ["$1"](./"$1")"}' | sort -r
+xargs -n1 -I {} sh -c 'echo "{}"' | sed -e 's/\.md//g' -e 's/\.markdown//g' | awk '{print "- ["$1"](./"$1")"}' | sort
