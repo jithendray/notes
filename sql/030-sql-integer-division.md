@@ -1,6 +1,5 @@
 ---
-tags:
-  - sql
+tags: sql
 ---
 # Integer Division PostgreSQL
 

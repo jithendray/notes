@@ -1,6 +1,5 @@
 ---
-tags:
-  - sql
+tags: sql
 ---
 # to_char in PostgreSQL
 

@@ -1,6 +1,5 @@
 ---
-tags:
-  - python
+tags: python
 ---
 # Things to remember for interviews
 

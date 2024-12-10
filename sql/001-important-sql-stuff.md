@@ -1,6 +1,5 @@
 ---
-tags:
-  - sql
+tags: sql
 ---
 # SQL stuff to remember
 ### `count(*)` vs `count(id)`

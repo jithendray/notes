@@ -1,6 +1,5 @@
 ---
-tags:
-  - spark
+tags: spark
 ---
 # Spark basics
 

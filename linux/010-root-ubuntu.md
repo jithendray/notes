@@ -1,6 +1,5 @@
 ---
-tags:
-  - linux
+tags: linux
 ---
 # Root Access in Ubuntu
 

@@ -1,6 +1,5 @@
 ---
-tags:
-  - machine-learning
+tags: machine-learning
 mathjax: true
 ---
 # Weight Initialization
