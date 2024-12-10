@@ -21,10 +21,10 @@
   <div class="container">
     <header>
       <span><a href="./">{{ site.name }}</a></span>
-      <form action="{{ site.github.repository_url }}/search" method="get" style="float: right">
+      <!-- <form action="{{ site.github.repository_url }}/search" method="get" style="float: right">
         <input type="search" name="q" placeholder="Search">
         <input type="hidden" name="l" value="Markdown" style="display:none">
-      </form>
+      </form> -->
     </header>
     <section style="margin-top: 1em; color: #999;">
     {% if page.date %}<span class="date">{{ page.date }}</span>{% endif %}
@@ -36,9 +36,9 @@
       {% endfor %}
     </ul>
     {% endif %}
-    {% if page.date %}
+    <!-- {% if page.date %}
       <a style="float: right" href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">Edit</a>
-    {% endif %}
+    {% endif %} -->
     </section>
     <main>
       {{ content }}
