@@ -1,4 +1,5 @@
 ---
+date: 2024-05-03
 tags: aws
 ---
 # EBS vs EFS

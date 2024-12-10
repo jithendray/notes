@@ -5,6 +5,7 @@ Precis is a minimal note taking web-app built over Github Pages. This website it
 - [demo](./tags/demo)
 - [documentation](./tags/documentation)
 \n## Notes\n
+- *2024-05-03* [aws/aws-ebs-efs](./aws/aws-ebs-efs)
 - *2019-06-07* [introduction](./introduction)
 - *2019-06-06* [setup](./setup)
 - *2019-06-05* [demo-note](./demo-note)
