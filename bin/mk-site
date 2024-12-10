@@ -7,6 +7,9 @@ echo "Building site for $NAME"
 TAGS=`bin/ls-tags`
 echo "Tags found:$TAGS"
 
+# Clear the README file before writing to it
+echo "Clearing README.md"
+> README.md  # This command truncates the file to zero bytes (clears it)
 # add tags to README
 echo "Adding tags to README"
 # echo "# $NAME" > README.md
