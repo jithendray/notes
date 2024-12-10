@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine-learning/030-lightgbm.md",
+                "file": "sql/040-sql-to-char.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "030-lightgbm"
+              "title": "040-sql-to-char"
             }
           }
         ],
@@ -149,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine-learning/030-lightgbm.md"
+                "file": "sql/040-sql-to-char.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 030-lightgbm"
+              "title": "Outline of 040-sql-to-char"
             }
           }
         ],
@@ -172,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e19b739367e404d0",
+  "active": "e0fb5e3a74eeda5d",
   "lastOpenFiles": [
+    "machine-learning/030-lightgbm.md",
     "machine-learning/020-initialization.md",
     "machine-learning/010-ml-interview-resources.md",
     "linux/010-root-ubuntu.md",
@@ -198,7 +199,6 @@
     "aws/aws-ebs-efs.md",
     "tags/aws.md",
     "_chapters/010-aws/000-index.md",
-    "misc-links.md",
-    "900-interview-prep/110-array-basics.md"
+    "misc-links.md"
   ]
 }
