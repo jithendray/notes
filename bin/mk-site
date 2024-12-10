@@ -9,9 +9,9 @@ echo "Tags found:$TAGS"
 
 # add tags to README
 echo "Adding tags to README"
-echo "# $NAME" > README.md
+# echo "# $NAME" > README.md
 echo "$DESC" >> README.md
-echo "## Tags" >> README.md
+# echo "## Tags" >> README.md
 echo "$TAGS" | awk '{print "- ["$1"](./tags/"$1")"}' >> README.md
 
 # # add notes list to README
